@@ -1,1 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logan Hollenshead | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Logan Hollenshead</h1>
+      <p class="site-tagline">Enterprise Technology Integration Student at Penn State</p>
+      <div class="site-contact">
+        <a href="mailto:lfh5439@psu.edu">lfh5439@psu.edu</a>
+        <span>|</span>
+        <a href="tel:16102414129">610-241-4129</a>
+        <span>|</span>
+        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About -->
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a student at Penn State learning about IT and related technologies.
+        I’m interested in how technology supports real businesses and people, and
+        I want to get a job in the IT space where I can do good, practical work.
+      </p>
+      <p>
+        Right now I’m studying Enterprise Technology Integration and building up
+        my skills in programming, web development, and problem solving.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Shawn Hollenshead Cabinetry Website</h3>
+        <p class="project-tagline">
+          A small business website for a custom cabinetry company.
+        </p>
+        <p>
+          I created a website for my dad’s business, Shawn Hollenshead Cabinetry.
+          The site highlights services, showcases example work, and makes it
+          easier for customers to send in project requests.
+        </p>
+        <p class="project-tech"><strong>Tech used:</strong> HTML, CSS, JavaScript</p>
+      </article>
+
+      <article class="project">
+        <h3>Course Web Projects</h3>
+        <p class="project-tagline">
+          Front-end practice projects built for Penn State coursework.
+        </p>
+        <p>
+          Built multiple small websites to practice layout, responsive design,
+          and basic interactivity. These projects helped me get comfortable
+          writing clean HTML, organizing CSS, and using JavaScript for simple
+          behaviors.
+        </p>
+        <p class="project-tech"><strong>Tech used:</strong> HTML, CSS, JavaScript</p>
+      </article>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Technical</h3>
+          <ul>
+            <li>HTML</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>Haskell</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Teamwork</li>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+            <li>Presentation Skills (DECA)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Other</h3>
+          <ul>
+            <li>Fluent in French</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+
+      <article class="experience-item">
+        <h3>Shawn Hollenshead Cabinetry</h3>
+        <p class="experience-meta">
+          Chester Springs, PA &bull; May 2025 – July 2025
+        </p>
+        <ul>
+          <li>
+            Improved the business website by adding a project gallery, a custom
+            work request form, and other quality-of-life changes to enhance the
+            customer experience.
+          </li>
+          <li>
+            Upgraded workplace technology by ordering and installing new
+            computer parts and handling daily efficiency improvements.
+          </li>
+        </ul>
+      </article>
+
+      <article class="experience-item">
+        <h3>DECA Club Member</h3>
+        <p class="experience-meta">
+          West Chester East High School &bull; Sept 2019 – June 2020, Sept 2022 – June 2023
+        </p>
+        <ul>
+          <li>
+            Participated in business and marketing competitions to develop
+            teamwork, leadership, and presentation skills.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+
+      <article class="education-item">
+        <h3>The Pennsylvania State University</h3>
+        <p class="education-meta">
+          University Park, PA &bull; B.S. in Enterprise Technology Integration
+        </p>
+        <p>Expected Graduation: June 2027 &bull; GPA: 3.33</p>
+      </article>
+
+      <article class="education-item">
+        <h3>West Chester East High School</h3>
+        <p class="education-meta">West Chester, PA</p>
+        <p>Graduated: June 2023 &bull; GPA: 3.45</p>
+      </article>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        If you’d like to connect about internships, projects, or opportunities in
+        IT, feel free to reach out.
+      </p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:lfh5439@psu.edu">lfh5439@psu.edu</a></li>
+        <li>Phone: <a href="tel:16102414129">610-241-4129</a></li>
+        <li>Location: State College, PA</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Logan Hollenshead</p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple script to keep the footer year updated
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
